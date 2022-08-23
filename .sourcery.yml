@@ -1,12 +1,12 @@
 sources:
-  - {PROJECT_NAME}/Sources
+  - test_name_1/Sources
 templates:
   - tools/sourcery/templates
 output:
-  {PROJECT_NAME}Tests/Sources/Mocks/Sourcery 
+  test_name_1Tests/Sources/Mocks/Sourcery 
 args:
   autoMockableTestableImports:
-    - {PROJECT_NAME}
+    - test_name_1
   autoMockableImports:
     - RxSwift
     - RxCocoa

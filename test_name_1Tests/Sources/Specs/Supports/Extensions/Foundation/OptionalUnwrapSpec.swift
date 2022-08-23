@@ -1,7 +1,7 @@
 import Nimble
 import Quick
 
-@testable import {PROJECT_NAME}
+@testable import test_name_1
 
 final class OptionalUnwrapSpec: QuickSpec {
 
